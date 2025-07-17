@@ -5,6 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>Lol_Champion_Mastery_Booster</RootNamespace>
+    <UserSecretsId>5e6e7627-c91a-4a1e-8cc6-5e8be788a725</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
