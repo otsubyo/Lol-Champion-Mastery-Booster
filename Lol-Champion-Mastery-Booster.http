@@ -1,0 +1,6 @@
+@Lol_Champion_Mastery_Booster_HostAddress = http://localhost:5249
+
+GET {{Lol_Champion_Mastery_Booster_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
