@@ -1,10 +1,36 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-    <meta charset="utf-8" />
-    <title></title>
+    <meta charset="UTF-8">
+    <title>LoL Champion Mastery Booster</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>LoL Champion Mastery Booster</h1>
 
+    <div class="form">
+        <label>JWT Token :</label>
+        <input type="text" id="token" placeholder="Bearer xxx..." />
+
+        <label>Profile ID :</label>
+        <input type="text" id="profileId" placeholder="ex: 934a60a7-40f9-468c-a4c7-6a26827b5cf7" />
+
+        <button id="load">Charger les masteries</button>
+    </div>
+
+    <table id="masteryTable">
+        <thead>
+            <tr>
+                <th>Champion</th>
+                <th>Niveau</th>
+                <th>Points</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Rempli dynamiquement -->
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
 </body>
 </html>
